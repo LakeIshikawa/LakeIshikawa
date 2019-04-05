@@ -146,18 +146,25 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    width: 71.5px;
-    height: 61.5px;
+    width: 48.5px;
+    height: 16.5px;
+    border-radius: 9px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background: url(drawing/drawing.svg);
     background-position: -1177.5px 0px;
+    border: 3px solid #ffffff;
 }
 .custom .back{
     float: left;
 }
 .custom .start{
-    float: right;
+    float: left;
+    background-color: #6459fe;
+    border: 3px solid #301fb7;
+    position: relative;
+    right: 144px;
+    bottom: 54px;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
